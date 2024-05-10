@@ -10,8 +10,10 @@ public class HaltChecker {
         // Configurar la cadena de responsabilidad
         Handler countDownHandler = new CountDownHandler(); // Creamos un manejador para CountDown
         Handler countUpHandler = new CountUpHandler();     // Creamos un manejador para CountUp
+        Reverser reverser = new Reverser();
 
         countDownHandler.setNextHandler(countUpHandler);  // Enlazamos el manejador de CountDown al de CountUp
+        countUpHandler.setNextHandler(reverser); // Colocar el reverser al final de la cadena
 
         this.firstHandler = countDownHandler;  // Establecemos el primer manejador en la cadena como el de CountDown
     }

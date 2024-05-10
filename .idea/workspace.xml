@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52339736-1f4e-47d4-833d-c70e422f8501" name="Changes" comment="comentar codigo">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Reverser.java" afterDir="false" />
+    <list default="true" id="52339736-1f4e-47d4-833d-c70e422f8501" name="Changes" comment="primera version del Reverser">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HaltChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Reverser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Reverser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +90,7 @@
       <workItem from="1715270886594" duration="2000" />
       <workItem from="1715285624776" duration="3471000" />
       <workItem from="1715289179573" duration="38000" />
-      <workItem from="1715326963523" duration="9251000" />
+      <workItem from="1715326963523" duration="19382000" />
     </task>
     <task id="LOCAL-00001" summary="version de prueba">
       <option name="closed" value="true" />
@@ -131,11 +132,30 @@
       <option name="project" value="LOCAL" />
       <updated>1715335537682</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="primera version del Reverser">
+      <option name="closed" value="true" />
+      <created>1715339194310</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715339194310</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version de prueba" />
@@ -143,6 +163,7 @@
     <MESSAGE value="problema con el set arreglado" />
     <MESSAGE value="implemento interfaz, modifico haltchecker y DiagramaUML.puml" />
     <MESSAGE value="comentar codigo" />
-    <option name="LAST_COMMIT_MESSAGE" value="comentar codigo" />
+    <MESSAGE value="primera version del Reverser" />
+    <option name="LAST_COMMIT_MESSAGE" value="primera version del Reverser" />
   </component>
 </project>

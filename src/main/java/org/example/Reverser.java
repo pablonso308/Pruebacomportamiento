@@ -1,26 +1,28 @@
 package org.example;
-public class Reverser {
-    private Program program;
-    private HaltChecker haltChecker;
+public class Reverser implements Handler {
+    private Handler nextHandler;
 
-    public Reverser(Program program) {
-        this.program = program;
-        this.haltChecker = new HaltChecker();  // Asume que HaltChecker está configurado correctamente.
+    @Override
+    public String handle(Program program) {
+        if (nextHandler != null) {
+            String result = nextHandler.handle(program);
+            // Invertir el resultado
+            return invertResult(result);
+        }
+        return "undefined";  // O manejo de caso cuando no hay siguiente manejador.
     }
 
-    public void execute() {
-        String result = haltChecker.willProgramHalt(program);
-        if (result.equals("never")) {
-            while (true) { // Bucle infinito si el programa nunca se detiene.
-                System.out.println("Looping forever...");
-                try {
-                    Thread.sleep(1000); // Espera para hacer el bucle visible.
-                } catch (InterruptedException e) {
-                    Thread.currentThread().interrupt(); // Buena práctica para manejar la interrupción.
-                }
-            }
-        } else {
-            System.out.println("Program halts, ending Reverser.");
+    @Override
+    public void setNextHandler(Handler nextHandler) {
+        this.nextHandler = nextHandler;
+    }
+
+    private String invertResult(String result) {
+        if ("never".equals(result)) {
+            return "end";
+        } else if ("halts".equals(result)) {
+            return "loop";
         }
+        return "undefined"; // Manejo en caso de que se reciban resultados inesperados
     }
 }
