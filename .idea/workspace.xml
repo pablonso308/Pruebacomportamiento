@@ -4,14 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52339736-1f4e-47d4-833d-c70e422f8501" name="Changes" comment="implementamos inter">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DiagramaUML.puml" afterDir="false" />
+    <list default="true" id="52339736-1f4e-47d4-833d-c70e422f8501" name="Changes" comment="comentar codigo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Reverser.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountDownHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CountDownHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountUpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CountUpHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HaltChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Handler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="UML Sequence" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -94,7 +89,7 @@
       <workItem from="1715270886594" duration="2000" />
       <workItem from="1715285624776" duration="3471000" />
       <workItem from="1715289179573" duration="38000" />
-      <workItem from="1715326963523" duration="5882000" />
+      <workItem from="1715326963523" duration="9251000" />
     </task>
     <task id="LOCAL-00001" summary="version de prueba">
       <option name="closed" value="true" />
@@ -120,7 +115,23 @@
       <option name="project" value="LOCAL" />
       <updated>1715330252390</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="implemento interfaz, modifico haltchecker y DiagramaUML.puml">
+      <option name="closed" value="true" />
+      <created>1715333185902</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1715333185902</updated>
+    </task>
+    <task id="LOCAL-00005" summary="comentar codigo">
+      <option name="closed" value="true" />
+      <created>1715335537682</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1715335537682</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +141,8 @@
     <MESSAGE value="version de prueba" />
     <MESSAGE value="concepto entendido despues de ver el video arreglar el set del haltchecker" />
     <MESSAGE value="problema con el set arreglado" />
-    <option name="LAST_COMMIT_MESSAGE" value="problema con el set arreglado" />
+    <MESSAGE value="implemento interfaz, modifico haltchecker y DiagramaUML.puml" />
+    <MESSAGE value="comentar codigo" />
+    <option name="LAST_COMMIT_MESSAGE" value="comentar codigo" />
   </component>
 </project>
