@@ -41,3 +41,20 @@ Son implementaciones concretas de `HaltCheckerHandler`. Cada uno está diseñado
    - Implemente la clase `Program` para su nuevo tipo de programa.
    - Cree un nuevo manejador que implemente `HaltCheckerHandler` para su tipo de programa y configúrelo dentro de la cadena de responsabilidades en `HaltChecker`.
 
+Componente Reverser
+
+Descripción del Componente Reverser
+El Reverser es una parte integral del proyecto que simula el famoso "problema de parar" en la teoría de la computación. Este componente interactúa con programas y un verificador de parada para demostrar cómo la predicción del comportamiento de un programa puede influir y alterar su ejecución.
+
+Funcionalidades
+Predicción y Respuesta: El Reverser utiliza el ProgramaHaltChecker para predecir si un programa proporcionado se detendrá o continuará ejecutándose. Basado en esta predicción, altera su comportamiento:
+Bucle Infinito: Si se predice que el programa se detendrá, el Reverser entra en un bucle infinito.
+Terminación Inmediata: Si se predice que el programa no se detendrá, el Reverser termina su ejecución de inmediato.
+
+Implementación
+El Reverser está implementado como una clase en Java que sigue la interfaz Programa, permitiendo una integración fluida con otros componentes del sistema.
+
+Conclusión
+El Reverser demuestra de manera efectiva las paradojas inherentes al problema de parar y ofrece una herramienta didáctica para explorar conceptos avanzados en computación. Este componente destaca los desafíos y las consideraciones necesarias cuando se predice el comportamiento de los programas en un contexto práctico y educativo.
+
+
