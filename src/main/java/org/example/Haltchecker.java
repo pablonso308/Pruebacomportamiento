@@ -2,22 +2,19 @@ package org.example;
 
 
 // HaltChecker implementa Handler
-class HaltChecker implements Handler {
-    private Handler next;
+public class HaltChecker {
+    private Handler firstHandler;
 
-    @Override
-    public void setNextHandler(Handler next) {
-        this.next = next;
+    public HaltChecker() {
+        // Configurar la cadena de responsabilidad
+        Handler countDownHandler = new CountDownHandler();
+        Handler countUpHandler = new CountUpHandler();
+
+        countDownHandler.setNextHandler(countUpHandler); // Enlazamos el handler de CountDown al de CountUp
+        this.firstHandler = countDownHandler;
     }
 
-    @Override
-    public void handleRequest(Program program) {
-        if (program.shouldTerminate()) {
-            System.out.println("Program should terminate.");
-        } else {
-            if (next != null) {
-                next.handleRequest(program);
-            }
-        }
+    public boolean willProgramHalt(Program program) {
+        return firstHandler.handle(program);
     }
 }
