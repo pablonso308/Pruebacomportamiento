@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52339736-1f4e-47d4-833d-c70e422f8501" name="Changes" comment="version de prueba" />
+    <list default="true" id="52339736-1f4e-47d4-833d-c70e422f8501" name="Changes" comment="concepto entendido despues de ver el video arreglar el set del haltchecker">
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountDownHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CountDownHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountUpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CountUpHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Haltchecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HaltChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Handler.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +88,7 @@
       <workItem from="1715270886594" duration="2000" />
       <workItem from="1715285624776" duration="3471000" />
       <workItem from="1715289179573" duration="38000" />
-      <workItem from="1715326963523" duration="2034000" />
+      <workItem from="1715326963523" duration="2934000" />
     </task>
     <task id="LOCAL-00001" summary="version de prueba">
       <option name="closed" value="true" />
@@ -93,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715328993294</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="concepto entendido despues de ver el video arreglar el set del haltchecker">
+      <option name="closed" value="true" />
+      <created>1715329572504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1715329572504</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +114,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version de prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="version de prueba" />
+    <MESSAGE value="concepto entendido despues de ver el video arreglar el set del haltchecker" />
+    <option name="LAST_COMMIT_MESSAGE" value="concepto entendido despues de ver el video arreglar el set del haltchecker" />
   </component>
 </project>

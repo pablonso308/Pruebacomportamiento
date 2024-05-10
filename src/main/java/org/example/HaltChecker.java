@@ -11,6 +11,7 @@ public class HaltChecker {
         Handler countUpHandler = new CountUpHandler();
 
         countDownHandler.setNextHandler(countUpHandler); // Enlazamos el handler de CountDown al de CountUp
+
         this.firstHandler = countDownHandler;
     }
 
