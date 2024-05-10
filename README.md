@@ -41,15 +41,3 @@ Son implementaciones concretas de `HaltCheckerHandler`. Cada uno está diseñado
    - Implemente la clase `Program` para su nuevo tipo de programa.
    - Cree un nuevo manejador que implemente `HaltCheckerHandler` para su tipo de programa y configúrelo dentro de la cadena de responsabilidades en `HaltChecker`.
 
-## System Requirements
-
-- Java JDK 8 o superior.
-- IDE con soporte para proyectos Java (Eclipse, IntelliJ IDEA, etc.).
-
-## Contributing
-
-Se invita a los contribuyentes a mejorar el sistema, añadir nuevos tipos de programas, mejorar la interfaz gráfica, o contribuir con mejoras al código existente. Por favor, siga las convenciones de codificación y realice pruebas adecuadas antes de realizar cualquier pull request.
-
-## License
-
-Este proyecto está licenciado bajo [INSERT LICENSE HERE] - vea el archivo LICENSE en el repositorio para más detalles
