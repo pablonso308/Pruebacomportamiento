@@ -1,0 +1,56 @@
+@startuml
+
+' Definimos la clase abstracta Program
+abstract class Program {
+    {abstract} +boolean shouldTerminate()
+    {abstract} +void execute()
+}
+
+' Definimos las clases que extienden de Program
+class CountDown {
+    -int count = 5
+    +boolean shouldTerminate()
+    +void execute()
+}
+CountDown --|> Program : extends
+
+class CountUp {
+    -int count = 1
+    +boolean shouldTerminate()
+    +void execute()
+}
+CountUp --|> Program : extends
+
+' Definimos la interfaz para los manejadores
+interface HaltCheckerHandler {
+    +String handle(Program program)
+    +void setNextHandler(HaltCheckerHandler handler)
+}
+
+' Definimos los manejadores concretos
+class CountDownHandler {
+    -HaltCheckerHandler nextHandler
+    +String handle(Program program)
+    +void setNextHandler(HaltCheckerHandler handler)
+}
+CountDownHandler ..|> HaltCheckerHandler : implements
+
+class CountUpHandler {
+    -HaltCheckerHandler nextHandler
+    +String handle(Program program)
+    +void setNextHandler(HaltCheckerHandler handler)
+}
+CountUpHandler ..|> HaltCheckerHandler : implements
+
+' Definimos la clase HaltChecker que utiliza la cadena de responsabilidad
+class HaltChecker {
+    -HaltCheckerHandler firstHandler
+    +HaltChecker()
+    +String willProgramHalt(Program program)
+}
+
+' Relaciones de asociación para mostrar la cadena de responsabilidades
+HaltCheckerHandler <.. HaltChecker : uses
+HaltCheckerHandler "1" o-- "0..1" HaltCheckerHandler : next
+
+@enduml

@@ -15,7 +15,7 @@ public class HaltChecker {
         this.firstHandler = countDownHandler;
     }
 
-    public boolean willProgramHalt(Program program) {
+    public String willProgramHalt(Program program) {
         return firstHandler.handle(program);
     }
 }

@@ -4,14 +4,14 @@ public class CountUpHandler implements Handler {
     private Handler nextHandler;
 
     @Override
-    public boolean handle(Program program) {
+    public String handle(Program program) {
         if (program instanceof CountUp) {
-            return false; // CountUp nunca termina, así que devolvemos false
+            return "never"; // CountUp nunca termina, así que devolvemos false
         }
         if (nextHandler != null) {
             return nextHandler.handle(program);
         }
-        return false;
+        return "never";
     }
 
     @Override

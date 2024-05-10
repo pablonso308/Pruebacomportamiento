@@ -4,11 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="52339736-1f4e-47d4-833d-c70e422f8501" name="Changes" comment="concepto entendido despues de ver el video arreglar el set del haltchecker">
+    <list default="true" id="52339736-1f4e-47d4-833d-c70e422f8501" name="Changes" comment="implementamos inter">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DiagramaUML.puml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountDownHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CountDownHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CountUpHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CountUpHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Haltchecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HaltChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HaltChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HaltChecker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Handler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Handler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="UML Sequence" />
       </list>
     </option>
   </component>
@@ -34,29 +39,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Sequence",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.Main" />
       <module name="Pruebacomportamiento" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.programDown.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,7 +94,7 @@
       <workItem from="1715270886594" duration="2000" />
       <workItem from="1715285624776" duration="3471000" />
       <workItem from="1715289179573" duration="38000" />
-      <workItem from="1715326963523" duration="2934000" />
+      <workItem from="1715326963523" duration="5882000" />
     </task>
     <task id="LOCAL-00001" summary="version de prueba">
       <option name="closed" value="true" />
@@ -106,7 +112,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715329572504</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="problema con el set arreglado">
+      <option name="closed" value="true" />
+      <created>1715330252390</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1715330252390</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +129,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="version de prueba" />
     <MESSAGE value="concepto entendido despues de ver el video arreglar el set del haltchecker" />
-    <option name="LAST_COMMIT_MESSAGE" value="concepto entendido despues de ver el video arreglar el set del haltchecker" />
+    <MESSAGE value="problema con el set arreglado" />
+    <option name="LAST_COMMIT_MESSAGE" value="problema con el set arreglado" />
   </component>
 </project>
